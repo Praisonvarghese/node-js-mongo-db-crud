@@ -1,0 +1,29 @@
+GET http://localhost:3000/courses
+
+
+###
+GET http://localhost:3000/courses/61d7ee37dd7b9eed1a9ef7f3
+
+
+###
+
+POST http://localhost:3000/courses
+Content-Type:  application/json
+
+{
+    "courseName" : "Node js",
+    "courseDescription" : "description3"
+}
+
+###
+DELETE http://localhost:3000/courses/61d7ee37dd7b9eed1a9ef7f3
+
+###
+
+PATCH http://localhost:3000/courses/61d7ee95b09092845c11fcbb
+Content-Type:  application/json
+
+{
+    "courseName" : "Docker",
+    "courseDescription" : "Docker description"
+}
